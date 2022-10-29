@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <WrapPanel>
-            <Label x:Name="Dany" Content="ABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
-            <Label x:Name="Itog" Content="0" Height="30" Width="100"/>
-            <Button x:Name="Schet" Content="Счет" Click="Schet_Click" Width="150" Height="50"/>
-        </WrapPanel>
+        <Canvas>
+            <Button x:Name="Win1" Content="1" Width="100" Height="50" Canvas.Left="10" Canvas.Top="10" Click="Win1_Click"/>
+            <Button x:Name="Win2" Content="2" Width="100" Height="50" Canvas.Left="150" Canvas.Top="10" Click="Win2_Click"/>
+            
+        </Canvas>
     </Grid>
 </Window>
