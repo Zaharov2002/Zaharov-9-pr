@@ -10,6 +10,7 @@
         <Canvas>
             <Button x:Name="Win1" Content="1" Width="100" Height="50" Canvas.Left="10" Canvas.Top="10" Click="Win1_Click"/>
             <Button x:Name="Win2" Content="2" Width="100" Height="50" Canvas.Left="150" Canvas.Top="10" Click="Win2_Click"/>
+            <Button x:Name="Win3" Content="3" Width="100" Height="50" Canvas.Left="300" Canvas.Top="10" Click="Win3_Click"/>
             
         </Canvas>
     </Grid>
